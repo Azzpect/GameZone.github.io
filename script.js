@@ -2,6 +2,19 @@ const box = document.querySelectorAll('.box')
 let turn = 0
 let game_over = false
 let msg = ''
+box[0].style.borderTop = 'none'
+box[0].style.borderLeft = 'none'
+box[1].style.borderTop = 'none'
+box[2].style.borderTop = 'none'
+box[2].style.borderRight = 'none'
+box[3].style.borderLeft = 'none'
+box[5].style.borderRight = 'none'
+box[6].style.borderBottom = 'none'
+box[6].style.borderLeft = 'none'
+box[7].style.borderBottom = 'none'
+box[8].style.borderBottom = 'none'
+box[8].style.borderRight = 'none'
+
 box.forEach(element => {
     element.addEventListener('click', () => {
         if(element.innerHTML == ''){
