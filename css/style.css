@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-color: #202124;
+}
+.heading{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 5%;
+}
+.text{
+    color: whitesmoke;
+    font-size: 1rem;
+    line-height: 20px;
+    text-align: center;
+    width: 45vw;
+    margin: auto;
+    padding: 1%;
+}
+.game-cards{
+    width: 20vw;
+    height: 5vh;
+    background-color: whitesmoke;
+    margin: 2% auto;
+    text-align: center;
+    padding-top: 1%;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+.game-cards:hover{
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+}
